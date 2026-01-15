@@ -5,7 +5,7 @@
 Plots clustered FIMO motif hits relative to TSS.
 
 Author: Nicolas Noel
-Repository: https://github.com/nic0noel/gata4_project
+Repository: https://github.com/CigliolaLab/plot-fimo-clusters
 
 Outputs:
   - <outprefix>_windows.csv
@@ -18,7 +18,7 @@ Typical usage (Gata4, danRer11, minus strand, relative coords):
 
   python3 plot_fimo_clusters.py \
     --fimo fimo_out_1e-3.tsv \
-    --outprefix new_gata4_clusters_1e3 \
+    --outprefix new_gata4_clusters_1e-3 \
     --title "Gata4 promoter: cluster detection" \
     --relative \
     --window 250 --step 50 \
